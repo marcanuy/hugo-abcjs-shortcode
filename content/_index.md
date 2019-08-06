@@ -19,6 +19,5 @@ K:Em
 {{< abcjs />}}
 
 <small>*based in abcjs's homepage example </small>
-lssjsjssj
 
-No content shown after shortcode
+Bug? No content is shown after rendering shortcode
