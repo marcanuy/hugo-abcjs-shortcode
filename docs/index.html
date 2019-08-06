@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="generator" content="Hugo 0.56.3" />
+    <meta charset="utf-8">
+    <title>
+      &lt;!-- Blocks may include default content. -->
+      My New Hugo Site
+    </title>
+    <link href="/css/abcjs-midi.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="/js/abcjs_midi_5.8.0-min.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    
+    
+
+
+<h1 id="abcjs-shortcode-example">abcjs shortcode example</h1>
+
+<div id="mytune"></div>
+<script>
+ var mytune= "\nX: 24\nT:Clouds \nC:Example\nS:Copyright 2019\nM:6\/8\nL:1\/8\nQ:3\/8=116\nR:Creepy Jig\nK:Em\n|:\x22Em\x22EEE E2G|\x22C7\x22_B2A A2F|\x22Em\x22EEE E2G|\\\n\x22C7\x22_B2A \x22B7\x22=B3|\x22Am\x22EEA E2G|\n\x22D7\x22_B2A G2F|\x22Em\x22GFE \x22D (Bm7)\x22F2D|\\\n1\x22Em\x22E3-E3:|2\x22Em\x22E3-E2B|:\x22Em\x22e2e gfe|\n\x3cdiv id=\x22\x22\x3e\x3c\/div\x3e\n\x3cscript\x3e\n var = \x22\x22;\n window.onload=function() {\n     ABCJS.renderAbc(\x22\x22, );\n }\n\x3c\/script\x3e\n\n\n\n\x3csmall\x3e*based in abcjs\x27s homepage example \x3c\/small\x3e\n\nBug? No content is shown after rendering shortcode\n";
+ window.onload=function() {
+     ABCJS.renderAbc("mytune", mytune);
+ }
+</script>
+
+
+
+
+    
+    
+    
+  </body>
+</html>
